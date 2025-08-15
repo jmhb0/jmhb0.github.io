@@ -1,0 +1,29 @@
+<tr bgcolor="#ffffff">
+    <td style="padding:20px;width:100%;vertical-align:middle">
+        {% assign first_link = include.links | first %}
+        {% if first_link %}
+        <a href="{{ first_link.href }}">
+            <span class="papertitle">{{ include.title }}</span>
+        </a>
+        {% else %}
+        <span class="papertitle">{{ include.title }}</span>
+        {% endif %}
+        <br>
+        {% if include.authors_html %}
+        {{ include.authors_html }}
+        <br>
+        {% endif %}
+        {% if include.venue %}
+        <em>{{ include.venue }}</em>
+        <br>
+        {% endif %}
+        {% if include.links %}
+        {% for l in include.links %}
+        <a href="{{ l.href }}">{{ l.text }}</a>{% unless forloop.last %} / {% endunless %}
+        {% endfor %}
+        <br>
+        {% endif %}
+        {% if include.note %}<em>{{ include.note }}</em>{% endif %}
+        {% if include.description %}<p>{{ include.description }}</p>{% endif %}
+    </td>
+</tr>

@@ -1,0 +1,89 @@
+- key: microvqa
+  title: "MicroVQA: A Multimodal Reasoning Benchmark for Microscopy-Based Scientific Research"
+  venue: CVPR 2025
+  authors_html: "<strong>James Burgess</strong>*, Jeffrey J Nirschl*, Laura Bravo-Sánchez*, Alejandro Lozano, Sanket Rajan Gupte, Jesus G. Galaz-Montoya, Yuhui Zhang, Yuchang Su, Disha Bhowmik, Zachary Coman, Sarina M. Hasan, Alexandra Johannesson, William D. Leineweber, Malvika G Nair, Ridhi Yarlagadda, Connor Zuraski, Wah Chiu, Sarah Cohen, Jan N. Hansen, Manuel D Leonetti, Chad Liu, Emma Lundberg, Serena Yeung-Levy"
+  image: images/fig_microvqa.png
+  links:
+    - text: project page & blog
+      href: https://jmhb0.github.io/microvqa/
+    - text: arxiv
+      href: https://arxiv.org/abs/2503.13399
+    - text: benchmark
+      href: https://huggingface.co/datasets/jmhb/microvqa
+    - text: code
+      href: https://github.com/jmhb0/microvqa
+  note: "*co-first authorship"
+  description: "MicroVQA is an expert-curated benchmark for research-level reasoning in biological microscopy. We also propose a method called RefineBot for removing language shortcuts from multiple-choice VQA."
+
+- key: biomedica
+  title: "BIOMEDICA: An Open Biomedical Image-Caption Archive, Dataset, and Vision-Language Models Derived from Scientific Literature"
+  venue: CVPR 2025
+  authors_html: "Alejandro Lozano*, Min Woo Sun*, <strong>James Burgess</strong>*, Liangyu Chen, Jeffrey J. Nirschl, Jeffrey Gu, Ivan Lopez, Josiah Aklilu, Anita Rau, Austin Wolfgana Katzer, Collin Chiu, Xiaohan Wang, Alfred Seunghoon Song, Robert Tibshirani, Serena Yeung-Levy"
+  image: images/fig-biomedica.jpeg
+  links:
+    - text: project page
+      href: https://minwoosun.github.io/biomedica-website/
+    - text: arxiv
+      href: https://arxiv.org/abs/2501.07171
+    - text: code
+      href: https://github.com/minwoosun/biomedica-etl
+    - text: data
+      href: https://huggingface.co/BIOMEDICA
+  note: "*co-first authorship"
+  description: "The BIOMEDICA dataset has 6 million scientific articles and 24 million image-text pairs for training vision-language models in biomedicine. We use it to train state-of-the-art embedding models for biomedical images."
+
+
+- key: viddiff
+  title: "Video Action Differencing"
+  venue: ICLR 2025
+  authors_html: "<strong>James Burgess</strong>, Xiaohan Wang, Yuhui Zhang, Anita Rau, Alejandro Lozano, Lisa Dunlap, Trevor Darrell, Serena Yeung-Levy"
+  image: images/fig1_left-viddiff.jpg
+  links:
+    - text: project page & blog
+      href: https://jmhb0.github.io/viddiff/
+    - text: paper
+      href: https://arxiv.org/abs/2503.07860
+    - text: benchmark
+      href: https://huggingface.co/datasets/jmhb/VidDiffBench
+    - text: code
+      href: https://github.com/jmhb0/viddiff
+  description: "We propose Video Action Differencing (VidDiff), a new task for detecting subtle variations in how actions are performed between two videos. We release a benchmark spaning diverse skilled actions, and a baseline method that is a simple agentic workflow."
+
+- key: viewneti
+  title: "Viewpoint Textual Inversion: Discovering Scene Representations and 3D View Control in 2D Diffusion Models"
+  venue: ECCV 2024
+  authors_html: "<strong>James Burgess</strong>, Kuan-Chieh Wang, Serena Yeung-Levy"
+  image: images/fig_viewneti.png
+  links:
+    - text: project page
+      href: https://jmhb0.github.io/view_neti/
+    - text: arXiv
+      href: https://arxiv.org/abs/2309.07986
+    - text: code
+      href: https://github.com/jmhb0/view_neti
+  note: 'Outstanding Paper Award at the ECCV Workshop "Emergent Visual Abilities and Limits of Foundation Models"'
+  description: "We show that 2D diffusion models like StableDiffusion have 3D control in their text input space which we call '3D view tokens'."
+
+- key: o2vae
+  title: "Orientation-invariant autoencoders learn robust representations for shape profiling of cells and organelles"
+  venue: Nature Communications 2024
+  authors_html: "<strong>James Burgess</strong>, Jeffrey J. Nirschl, Maria-Clara Zanellati, Alejandro Lozano, Sarah Cohen, Serena Yeung-Levy"
+  image: images/fig_o2vae.png
+  links:
+    - text: paper
+      href: https://www.nature.com/articles/s41467-024-45362-4
+    - text: code
+      href: https://github.com/jmhb0/o2vae
+  description: "Unsupervised shape representations of cells and organelles are erroneously sensitive to image orientation, which we mitigate with equivariant convolutional network encoders in our method, O2VAE."
+
+- key: organelle-profiling
+  title: "Global organelle profiling reveals subcellular localization and remodeling at proteome scale"
+  venue: Cell 2024
+  authors_html: "Hein et. al. (including <strong>James Burgess</strong>)"
+  image: images/fig_organelle_profiling.jpg
+  links:
+    - text: bioRxiv
+      href: https://www.cell.com/cell/fulltext/S0092-8674(24)01344-8
+    - text: code
+      href: https://github.com/jmhb0/cytoself
+  description: "A proteomics map of human subcellular architecture, led by the Chan-Zuckerberg Biohub." 

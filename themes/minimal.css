@@ -1,0 +1,16 @@
+/* Minimal theme override */
+.container {
+    max-width: 900px !important;
+}
+
+.papertitle {
+    font-size: 15px !important;
+}
+
+a {
+    color: #2a62ff !important;
+}
+
+a:hover {
+    color: #1a42b5 !important;
+}

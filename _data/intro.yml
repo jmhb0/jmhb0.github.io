@@ -1,0 +1,15 @@
+name: James Burgess
+intro_paragraphs:
+  - "I am a Stanford PhD student working on computer vision and machine learning. I'm fortunate to be advised by <a href=\"https://ai.stanford.edu/~syyeung/\">Serena Yeung-Levy</a> and to be supported by the <a href=\"https://www.quadfellowship.org/\">Quad Fellowship</a>."
+  - "My methods work focuses on vision-language models, agent-based systems, and evaluation. I also develop multimodal large language models for biology research."
+social_links:
+  - text: Scholar
+    href: https://scholar.google.com/citations?user=R6GmdPIAAAAJ
+  - text: Twitter
+    href: https://twitter.com/jmhb0
+  - text: Github
+    href: https://github.com/jmhb0/
+  - text: LinkedIn
+    href: https://www.linkedin.com/in/jmhb/
+headshot_image_circle: images/james_burgess_headshot_circle.png
+headshot_image_full: images/james_burgess_headshot.png 

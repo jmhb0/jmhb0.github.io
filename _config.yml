@@ -1,0 +1,10 @@
+title: James Burgess
+author: James Burgess
+url: https://jmhb0.github.io
+baseurl: ""
+markdown: kramdown
+# Use a custom variable to avoid clashing with Jekyll's built-in theme key
+site_theme: default
+# Enable a gem theme for pages that use layout: default
+# theme: jekyll-theme-cayman
+theme: jekyll-theme-architect

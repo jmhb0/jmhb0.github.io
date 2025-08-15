@@ -1,0 +1,63 @@
+- key: medevidence
+  title: "Can Large Language Models Match the Conclusions of Systematic Reviews?"
+  venue: "Preprint"
+  authors_html: "Christopher Polzak, Alejandro Lozano, Min Woo Sun, <strong>James Burgess</strong>, Yuhui Zhang, Kevin Wu, Serena Yeung-Levy"
+  image: None
+  links:
+    - text: paper
+      href: https://arxiv.org/abs/2505.22787
+    - text: benchmark
+      href: https://huggingface.co/datasets/clcp/med-evidence
+    - text: code
+      href: https://github.com/zy-f/med-evidence
+  note: "*co-first authorship"
+  # description: "A benchmark testing LLMs ability for in-context reasoning about medical findings from research papers."
+
+- key: cellflux
+  title: "CellFlux: Simulating Cellular Morphology Changes via Flow Matching"
+  venue: "ICML 2026"
+  authors_html: "Yuhui Zhang, Yuchang Su, Chenyu Wang, Tianhong Li, Zoe Wefers, Jeffrey Nirschl, <strong>James Burgess</strong>, Daisy Ding, Alejandro Lozano, Emma Lundberg, Serena Yeung-Levy"
+  image: None
+  links:
+    - text: project page
+      href: https://yuhui-zh15.github.io/CellFlux/
+    - text: paper
+      href: https://arxiv.org/pdf/2502.09775
+    - text: code
+      href: https://github.com/yuhui-zh15/CellFlux
+  note: "*co-first authorship"
+  # description: "A flow-based generative model for simulating cellular morphology changes due to chemical or geneteic perturbations."
+
+- key: autoconverter
+  title: "Automated Generation of Challenging Multiple-Choice Questions for Vision Language Model Evaluation"
+  venue: "CVPR 2025"
+  authors_html: "Yuhui Zhang*, Yuchang Su*, Yiming Liu, Xiaohan Wang, <strong>James Burgess</strong>, Elaine Sui, Chenyu Wang, Josiah Aklilu, Alejandro Lozano, Anjiang Wei, Ludwig Schmidt, Serena Yeung-Levy"
+  image: None
+  links:
+    - text: project page
+      href: https://yuhui-zh15.github.io/AutoConverter-Website/
+    - text: paper
+      href: https://arxiv.org/abs/2501.03225
+    - text: benchmark
+      href: https://huggingface.co/datasets/suyc21/VMCBench
+    - text: code
+      href: https://github.com/yuhui-zh15/AutoConverter
+  note: "*co-first authorship"
+  # description: "A method for converting open-ended visual question answering (VQA) queries into multiple-choice format, enabling more objective and scalable evaluation." 
+
+- key: microbench
+  title: "Micro-Bench: A Vision-Language Benchmark for Microscopy Understanding"
+  venue: "NeurIPS Datasets & Benchmarks 2024"
+  authors_html: "Alejandro Lozano*, Jeffrey Nirschl*, <strong>James Burgess</strong>, Sanket Rajan Gupte, Yuhui Zhang, Alyssa Unell, Serena Yeung-Levy"
+  image: images/fig_ubench.jpg
+  links:
+    - text: project page
+      href: https://ale9806.github.io/uBench-website/
+    - text: paper
+      href: https://arxiv.org/abs/2407.01791
+    - text: benchmark
+      href: https://huggingface.co/datasets/jnirschl/uBench
+    - text: code
+      href: https://github.com/yeung-lab/u-Bench
+  note: "*co-first authorship"
+  # description: "A Vision-Language Benchmark for Microscopy Understanding." 

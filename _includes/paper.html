@@ -1,0 +1,23 @@
+<article class="paper">
+    <div class="paper-media">
+        <img src="{{ include.image | relative_url }}" alt="{{ include.title }}">
+    </div>
+    <div class="paper-content">
+        <h3 class="papertitle">{{ include.title }}</h3>
+        {% if include.venue %}
+        <div class="papermeta"><em>{{ include.venue }}</em></div>
+        {% endif %}
+        {% if include.authors_html %}
+        <div class="paperauthors">{{ include.authors_html }}</div>
+        {% endif %}
+        {% if include.links %}
+        <div class="paperlinks">
+            {% for l in include.links %}
+            <a href="{{ l.href }}">{{ l.text }}</a>{% unless forloop.last %} / {% endunless %}
+            {% endfor %}
+        </div>
+        {% endif %}
+        {% if include.note %}<div class="papernote"><em>{{ include.note }}</em></div>{% endif %}
+        {% if include.description %}<p>{{ include.description }}</p>{% endif %}
+    </div>
+</article>
