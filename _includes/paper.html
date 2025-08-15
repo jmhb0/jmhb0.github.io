@@ -13,7 +13,7 @@
         {% if include.links %}
         <div class="paperlinks">
             {% for l in include.links %}
-            <a href="{{ l.href }}">{{ l.text }}</a>{% unless forloop.last %} / {% endunless %}
+            <a href="{{ l.href }}">{{ l.text }}</a>{% unless forloop.last %}&#8196;/&#8201;{% endunless %}
             {% endfor %}
         </div>
         {% endif %}

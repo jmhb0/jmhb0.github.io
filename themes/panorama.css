@@ -1,0 +1,205 @@
+/* Panorama theme: centered, card-based layout with generous whitespace */
+
+/* Container and global tone */
+.container {
+    max-width: 1100px !important;
+    padding: 0 24px !important;
+    margin: 0 auto !important;
+    /* center the whole page content */
+}
+
+body {
+    background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%) !important;
+    /* subtle slate gradient */
+    color: #0f172a !important;
+    /* slate-900 */
+    font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji' !important;
+}
+
+a {
+    color: #0ea5e9 !important;
+}
+
+/* sky-500 */
+a:hover {
+    color: #0369a1 !important;
+}
+
+/* sky-700 */
+
+.name {
+    font-size: 36px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.2px !important;
+}
+
+h2 {
+    font-weight: 700 !important;
+    letter-spacing: 0.2px !important;
+    font-size: 24px !important;
+}
+
+.papertitle {
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    letter-spacing: 0.2px !important;
+    line-height: 1.3 !important;
+}
+
+/* Override legacy, inline table constraints without changing markup */
+/* Center the outer root table on the homepage */
+main.container>table {
+    max-width: 980px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* All inner section tables: add vertical rhythm between rows for card effect */
+table {
+    border-collapse: separate !important;
+    border-spacing: 0 16px !important;
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* Row cards (two-cell image+text entries) */
+tr[bgcolor]>td {
+    background: #ffffff !important;
+    vertical-align: middle !important;
+}
+
+tr[bgcolor]>td:first-child {
+    width: 260px !important;
+    border: 1px solid #e5e7eb;
+    /* gray-200 */
+    border-right: 0;
+    border-radius: 14px 0 0 14px;
+    padding: 16px !important;
+    box-shadow: 0 6px 20px rgba(15, 23, 42, 0.06);
+}
+
+tr[bgcolor]>td:last-child {
+    border: 1px solid #e5e7eb;
+    border-left: 0;
+    border-radius: 0 14px 14px 0;
+    padding: 16px 20px !important;
+    box-shadow: 0 6px 20px rgba(15, 23, 42, 0.06);
+}
+
+/* Image column sizing */
+tr[bgcolor]>td:first-child .one {
+    width: 220px !important;
+    height: auto !important;
+}
+
+tr[bgcolor]>td:first-child img {
+    width: 100% !important;
+    max-width: 220px !important;
+    height: auto !important;
+    display: block !important;
+    border-radius: 10px;
+}
+
+/* Text-only entries (single cell rows) */
+tr[bgcolor]>td:only-child {
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    padding: 16px 20px !important;
+    box-shadow: 0 6px 20px rgba(15, 23, 42, 0.06);
+}
+
+/* Links spacing inside entries */
+tr[bgcolor] a {
+    text-decoration: none;
+}
+
+tr[bgcolor] a:hover {
+    text-decoration: underline;
+}
+
+tr[bgcolor] a+a {
+    margin-left: 0 !important;
+}
+
+/* Intro block: keep centered and add soft rounding to image */
+img.hoverZoomLink {
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
+/* Make intro paragraphs slightly larger for readability (exclude the name title) */
+table:has(.name) p:not(.name) {
+    font-size: 18px !important;
+}
+
+/* Intro paragraph links: keep default link styling for consistency */
+/* Intro paragraph links: make them match the surrounding text size/family */
+.intro-block p a,
+table:has(.name) p:not(.name) a {
+    color: #0ea5e9 !important;
+    /* keep link color */
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+}
+
+table:has(.name) p:not(.name) a:hover {
+    text-decoration: underline !important;
+}
+
+/* Make the social links row much bigger, keep link color consistent */
+.intro-social a {
+    font-size: 20px !important;
+    color: #0ea5e9 !important;
+    font-weight: 400 !important;
+}
+
+.intro-social a:hover {
+    text-decoration: underline !important;
+}
+
+/* Paper description text even smaller with tighter leading and less spacing */
+tr[bgcolor] p {
+    font-size: 12px !important;
+    line-height: 1.22 !important;
+    margin-top: 4px !important;
+    margin-bottom: 0 !important;
+    color: #334155 !important;
+    /* slate-700 */
+}
+
+/* Section headers spacing */
+td>h2 {
+    display: block;
+    margin: 6px 0 0 0;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .container {
+        padding: 0 16px !important;
+    }
+
+    main.container>table {
+        max-width: 100% !important;
+    }
+
+    tr[bgcolor]>td:first-child,
+    tr[bgcolor]>td:last-child,
+    tr[bgcolor]>td:only-child {
+        border-radius: 12px !important;
+        border: 1px solid #e5e7eb !important;
+        box-shadow: 0 4px 14px rgba(15, 23, 42, 0.08) !important;
+    }
+
+    tr[bgcolor]>td:first-child {
+        border-right: 1px solid #e5e7eb !important;
+        margin-bottom: 8px;
+    }
+
+    tr[bgcolor]>td:last-child {
+        border-left: 1px solid #e5e7eb !important;
+    }
+}

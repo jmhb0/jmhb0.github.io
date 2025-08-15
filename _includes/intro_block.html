@@ -1,14 +1,14 @@
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tbody>
         <tr style="padding:0px">
-            <td style="padding:2.5%;width:60%;vertical-align:middle">
+            <td class="intro-block" style="padding:2.5%;width:60%;vertical-align:middle">
                 <p class="name" style="text-align: center;">
                     {{ site.data.intro.name }}
                 </p>
                 {% for p in site.data.intro.intro_paragraphs %}
                 <p>{{ p }}</p>
                 {% endfor %}
-                <p style="text-align:center">
+                <p class="intro-social" style="text-align:center">
                     {% for s in site.data.intro.social_links %}
                     <a href="{{ s.href }}">{{ s.text }}</a>{% unless forloop.last %} &nbsp;/&nbsp; {% endunless %}
                     {% endfor %}

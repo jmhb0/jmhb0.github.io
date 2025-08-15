@@ -4,7 +4,9 @@ url: https://jmhb0.github.io
 baseurl: ""
 markdown: kramdown
 # Use a custom variable to avoid clashing with Jekyll's built-in theme key
-site_theme: default
+# site_theme: default
+site_theme: panorama
+# site_theme: noir
 # Enable a gem theme for pages that use layout: default
 # theme: jekyll-theme-cayman
 theme: jekyll-theme-architect

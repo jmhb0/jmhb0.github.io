@@ -1,7 +1,7 @@
 - key: medevidence
   title: "Can Large Language Models Match the Conclusions of Systematic Reviews?"
   venue: "Preprint"
-  authors_html: "Christopher Polzak, Alejandro Lozano, Min Woo Sun, <strong>James Burgess</strong>, Yuhui Zhang, Kevin Wu, Serena Yeung-Levy"
+  authors_html: "Christopher Polzak*, Alejandro Lozano*, Min Woo Sun*, <strong>James Burgess</strong>, Yuhui Zhang, Kevin Wu, Serena Yeung-Levy"
   image: None
   links:
     - text: paper
@@ -10,13 +10,13 @@
       href: https://huggingface.co/datasets/clcp/med-evidence
     - text: code
       href: https://github.com/zy-f/med-evidence
-  note: "*co-first authorship"
+  # note: "*co-first authorship"
   # description: "A benchmark testing LLMs ability for in-context reasoning about medical findings from research papers."
 
 - key: cellflux
   title: "CellFlux: Simulating Cellular Morphology Changes via Flow Matching"
   venue: "ICML 2026"
-  authors_html: "Yuhui Zhang, Yuchang Su, Chenyu Wang, Tianhong Li, Zoe Wefers, Jeffrey Nirschl, <strong>James Burgess</strong>, Daisy Ding, Alejandro Lozano, Emma Lundberg, Serena Yeung-Levy"
+  authors_html: "Yuhui Zhang*, Yuchang Su*, Chenyu Wang, Tianhong Li, Zoe Wefers, Jeffrey Nirschl, <strong>James Burgess</strong>, Daisy Ding, Alejandro Lozano, Emma Lundberg, Serena Yeung-Levy"
   image: None
   links:
     - text: project page
@@ -25,7 +25,7 @@
       href: https://arxiv.org/pdf/2502.09775
     - text: code
       href: https://github.com/yuhui-zh15/CellFlux
-  note: "*co-first authorship"
+  # note: "*co-first authorship"
   # description: "A flow-based generative model for simulating cellular morphology changes due to chemical or geneteic perturbations."
 
 - key: autoconverter
@@ -42,7 +42,7 @@
       href: https://huggingface.co/datasets/suyc21/VMCBench
     - text: code
       href: https://github.com/yuhui-zh15/AutoConverter
-  note: "*co-first authorship"
+  # note: "*co-first authorship"
   # description: "A method for converting open-ended visual question answering (VQA) queries into multiple-choice format, enabling more objective and scalable evaluation." 
 
 - key: microbench
@@ -59,5 +59,5 @@
       href: https://huggingface.co/datasets/jnirschl/uBench
     - text: code
       href: https://github.com/yeung-lab/u-Bench
-  note: "*co-first authorship"
+  # note: "*co-first authorship"
   # description: "A Vision-Language Benchmark for Microscopy Understanding." 
