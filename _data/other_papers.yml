@@ -1,3 +1,29 @@
+- key: squeezeddiffusion
+  title: "Squeezed Diffusion Models"
+  venue: "Preprint"
+  authors_html: "Jyotirmai Singh, Samar Khanna,  <strong>James Burgess</strong>"
+  image: None
+  links:
+    - text: paper
+      href: https://arxiv.org/abs/2508.14871
+    - text: code
+      href: https://github.com/joe-singh/squeezing
+  # note: "*co-first authorship"
+  # description: """
+
+- key: medresolution
+  title: "The Impact of Image Resolution on Biomedical Multimodal Large Language Models"
+  venue: "MLHC 2025"
+  authors_html: "Liangyu Chen, <strong>James Burgess</strong>, Jeffrey Nirschl, Orr Zohar, Serena Yeung-Levy"
+  image: None
+  links:
+    - text: paper
+      href: https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/689b7d2eaca3e60bf4c3cd5a/1755020590276/145_camera_ready+-+Liangyu+Chen.pdf
+    - text: code
+      href: https://github.com/cliangyu/med_eval
+  # note: "*co-first authorship"
+  # description: """
+
 - key: medevidence
   title: "Can Large Language Models Match the Conclusions of Systematic Reviews?"
   venue: "Preprint"
