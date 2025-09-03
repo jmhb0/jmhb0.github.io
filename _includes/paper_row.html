@@ -1,10 +1,8 @@
-<tr bgcolor="#ffffff">
-    <td style="padding:20px 8px 20px 20px;width:28%;vertical-align:middle">
-        <div class="one" style="width:240px;height:auto;">
-            <img src='{{ include.image | relative_url }}' style="width:100%;max-width:240px;height:auto;display:block;">
-        </div>
-    </td>
-    <td style="padding:20px 20px 20px 10px;width:72%;vertical-align:middle;">
+<article class="publication">
+    <div class="publication-image">
+        <img src='{{ include.image | relative_url }}' alt="{{ include.title }}">
+    </div>
+    <div class="publication-content">
         {% assign first_link = include.links | first %}
         {% if first_link %}
         <a href="{{ first_link.href }}">
@@ -30,5 +28,5 @@
         {% endif %}
         {% if include.note %}<em>{{ include.note }}</em>{% endif %}
         {% if include.description %}<p>{{ include.description }}</p>{% endif %}
-    </td>
-</tr>
+    </div>
+</article>

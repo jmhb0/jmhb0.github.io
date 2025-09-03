@@ -41,7 +41,7 @@
 
 - key: cellflux
   title: "CellFlux: Simulating Cellular Morphology Changes via Flow Matching"
-  venue: "ICML 2026"
+  venue: "ICML 2025"
   authors_html: "Yuhui Zhang*, Yuchang Su*, Chenyu Wang, Tianhong Li, Zoe Wefers, Jeffrey Nirschl, <strong>James Burgess</strong>, Daisy Ding, Alejandro Lozano, Emma Lundberg, Serena Yeung-Levy"
   image: None
   links:

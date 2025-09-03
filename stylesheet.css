@@ -110,13 +110,147 @@ h2 {
 }
 
 .name {
-  padding-top: 20px;
-  margin: 0;
+  margin: 0 0 20px 0;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 32px;
+  text-align: center;
 }
 
-/* Scope the 160x160 square only to photo intro if used */
+h1.name {
+  padding-top: 0;
+}
+
+.teaching-section,
+.teaching-section a,
+.teaching-section em {
+  font-size: 12px;
+}
+
+/* Main layout */
+.site-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+/* Introduction section */
+.intro-section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.intro-text {
+  flex: 1;
+}
+
+.intro-text p {
+  font-size: 20px;
+}
+
+.intro-text p a {
+  font-size: inherit;
+}
+
+.intro-social {
+  text-align: center;
+}
+
+.intro-photo {
+  flex: 0 0 auto;
+  max-width: 35%;
+}
+
+.intro-photo img {
+  max-width: 260px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Section styling */
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+/* Publications */
+.publications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.publication {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.publication-image {
+  flex: 0 0 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.publication-image img {
+  max-width: 240px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.publication-content {
+  flex: 1;
+}
+
+.publication-text {
+  background-color: #ffffff;
+  padding: 15px 20px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+/* Teaching section */
+.teaching-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.course {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.course a {
+  font-size: inherit;
+}
+
+/* Footer */
+.site-footer {
+  margin-top: 60px;
+  padding-top: 20px;
+}
+
+.site-footer p {
+  text-align: left;
+  font-size: small;
+  margin: 0;
+}
+
+/* Photo transitions - preserved from original */
 .photo-one {
   width: 160px;
   height: 160px;
@@ -140,4 +274,53 @@ h2 {
 
 span.highlight {
   background-color: #ffffd0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .site-content {
+    padding: 0 20px;
+  }
+
+  .intro-section {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .intro-photo {
+    max-width: 100%;
+  }
+
+  .publication {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .publication-image {
+    flex: none;
+    align-self: center;
+  }
+
+  .publication-image {
+    flex: 0 0 200px;
+  }
+
+  .publication-image img {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro-photo img {
+    max-width: 200px;
+  }
+
+  .publication-image img {
+    max-width: 100px;
+  }
+
+  section h2 {
+    font-size: 20px;
+  }
 }

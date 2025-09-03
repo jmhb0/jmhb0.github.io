@@ -149,9 +149,9 @@ table:has(.name) p:not(.name) a:hover {
     text-decoration: underline !important;
 }
 
-/* Make the social links row much bigger, keep link color consistent */
+/* Make the social links smaller, keep link color consistent */
 .intro-social a {
-    font-size: 20px !important;
+    font-size: 12px !important;
     color: #0ea5e9 !important;
     font-weight: 400 !important;
 }

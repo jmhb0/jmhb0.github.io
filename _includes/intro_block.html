@@ -1,25 +1,18 @@
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tbody>
-        <tr style="padding:0px">
-            <td class="intro-block" style="padding:2.5%;width:60%;vertical-align:middle">
-                <p class="name" style="text-align: center;">
-                    {{ site.data.intro.name }}
-                </p>
-                {% for p in site.data.intro.intro_paragraphs %}
-                <p>{{ p }}</p>
-                {% endfor %}
-                <p class="intro-social" style="text-align:center">
-                    {% for s in site.data.intro.social_links %}
-                    <a href="{{ s.href }}">{{ s.text }}</a>{% unless forloop.last %} &nbsp;/&nbsp; {% endunless %}
-                    {% endfor %}
-                </p>
-            </td>
-            <td style="padding:2.5%;width:35%;max-width:35%;padding-left:30px;">
-                <a href="{{ site.data.intro.headshot_image_full | relative_url }}"><img alt="profile photo"
-                        src="{{ site.data.intro.headshot_image_circle | relative_url }}" class="hoverZoomLink"
-                        style="max-width:260px;width:auto;height:auto;display:block;">
-                </a>
-            </td>
-        </tr>
-    </tbody>
-</table>
+<header class="intro-section">
+    <div class="intro-text">
+        <h1 class="name">{{ site.data.intro.name }}</h1>
+        {% for p in site.data.intro.intro_paragraphs %}
+        <p>{{ p }}</p>
+        {% endfor %}
+        <p class="intro-social">
+            {% for s in site.data.intro.social_links %}
+            <a href="{{ s.href }}">{{ s.text }}</a>{% unless forloop.last %} &nbsp;/&nbsp; {% endunless %}
+            {% endfor %}
+        </p>
+    </div>
+    <div class="intro-photo">
+        <a href="{{ site.data.intro.headshot_image_full | relative_url }}">
+            <img alt="profile photo" src="{{ site.data.intro.headshot_image_circle | relative_url }}" class="hoverZoomLink">
+        </a>
+    </div>
+</header>
