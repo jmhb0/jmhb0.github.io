@@ -10,4 +10,4 @@ site_theme: panorama
 # site_theme: noir
 # Enable a gem theme for pages that use layout: default
 # theme: jekyll-theme-cayman
-theme: jekyll-theme-architect
+# theme: jekyll-theme-architect
