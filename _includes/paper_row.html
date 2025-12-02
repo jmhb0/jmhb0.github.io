@@ -11,22 +11,20 @@
         {% else %}
         <span class="papertitle">{{ include.title }}</span>
         {% endif %}
-        <br>
         {% if include.authors_html %}
-        {{ include.authors_html }}
-        <br>
+        <div class="authors">{{ include.authors_html }}</div>
         {% endif %}
+        {% if include.note %}<div class="authors"><em>{{ include.note }}</em></div>{% endif %}
         {% if include.venue %}
-        <em>{{ include.venue }}</em>
-        <br>
+        <div class="venue"><em>{{ include.venue }}</em></div>
         {% endif %}
         {% if include.links %}
+        <div class="paper-links">
         {% for l in include.links %}
         <a href="{{ l.href }}">{{ l.text }}</a>{% unless forloop.last %}&#8196;/&#8201;{% endunless %}
         {% endfor %}
-        <br>
+        </div>
         {% endif %}
-        {% if include.note %}<em>{{ include.note }}</em>{% endif %}
         {% if include.description %}<p>{{ include.description }}</p>{% endif %}
     </div>
 </article>

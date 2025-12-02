@@ -39,11 +39,99 @@ h2 {
     font-size: 24px !important;
 }
 
-.papertitle {
+/* Publication text - targets modern HTML structure */
+.publication-content,
+.publication-content a,
+.publication-content em,
+.publication-content strong,
+.publication-content p,
+.publication-text,
+.publication-text a,
+.publication-text em,
+.publication-text strong,
+.publication-text p,
+article.publication *,
+article.publication-text * {
+    font-size: 11px !important;
+}
+
+/* Paper titles - must come after the wildcard rules above */
+.papertitle,
+.publication-content .papertitle,
+.publication-text .papertitle,
+article.publication .papertitle,
+article.publication-text .papertitle,
+a .papertitle,
+span.papertitle {
     font-weight: 700 !important;
-    font-size: 20px !important;
+    font-size: 14px !important;
     letter-spacing: 0.2px !important;
     line-height: 1.3 !important;
+}
+
+/* Selected publications - larger titles */
+section.publications.featured .papertitle,
+section.publications.featured article.publication .papertitle {
+    font-size: 17px !important;
+}
+
+/* Paper description text */
+.publication-content p,
+article.publication p {
+    font-size: 13px !important;
+}
+
+/* Selected publications - larger non-title text */
+section.publications.featured .publication-content,
+section.publications.featured .publication-content a,
+section.publications.featured .publication-content em,
+section.publications.featured article.publication *:not(.papertitle) {
+    font-size: 14px !important;
+}
+
+/* Selected publications - author list smaller - must come after non-title rules */
+section.publications.featured .publication-content .authors,
+section.publications.featured .publication-content .authors *,
+section.publications.featured .publication-content div.authors,
+section.publications.featured .publication-content div.authors *,
+section.publications.featured .authors,
+section.publications.featured .authors *,
+.publication-content .authors,
+.publication-content .authors *,
+.authors,
+.authors * {
+    font-size: 14px !important;
+    line-height: 1.2 !important;
+}
+
+/* Publication content div spacing */
+section.publications.featured .publication-content .authors,
+section.publications.featured .publication-content .venue,
+section.publications.featured .publication-content .paper-links {
+    margin: 3px 0 !important;
+}
+
+section.publications.featured .publication-content .papertitle {
+    display: block !important;
+    margin-bottom: 3px !important;
+}
+
+/* Selected publications - description paragraphs bigger */
+section.publications.featured .publication-content p,
+section.publications.featured article.publication p {
+    font-size: 18px !important;
+}
+
+/* Selected publications - venue bold */
+section.publications.featured .venue,
+section.publications.featured .venue em {
+    font-weight: 700 !important;
+}
+
+/* Selected publications - links bigger */
+section.publications.featured .paper-links,
+section.publications.featured .paper-links a {
+    font-size: 16px !important;
 }
 
 /* Override legacy, inline table constraints without changing markup */

@@ -1,3 +1,23 @@
+- key: artifactlens
+  title: "ArtifactLens: Detecting Image Artifacts with a VLM Scaffold"
+  venue: Preprint (to be released)
+  authors_html: "<strong>James Burgess</strong>, Rameen Abdal, Dan Stoddart, Sergey Tulyakov, Serena Yeung-Levy, Kuan-Chieh Jackson Wang"
+  image: images/artifactlens-figure.jpg
+  links:
+    - text: coming soon
+      href: /
+  description: "Detecting artifacts in AI-generated images can improve generators. Older works fine-tunes VLMs, but we find that scaffolding with small datasets can be enough. Key tools: in-context learning, prompt optimization, and multi-component design—we improve each."
+
+- key: papersearchqa
+  title: "PaperSearchQA: Learning to Search and Reason over Scientific Papers with RLVR"
+  venue: Preprint
+  authors_html: "<strong>James Burgess</strong>, Jan N. Hansen, Duo Peng, Yuhui Zhang, Alejandro Lozano, Min Woo Sun, Emma Lundberg, Serena Yeung-Levy"
+  image: images/papersearchqa-methods.jpg
+  links:
+    - text: preprint
+      href: assets/papersearchqa.pdf
+  description: "LLM agents that search and reason over documents can be trained with reinforcement learning with verifiable rewards (RLVR), but require training environments. We propose a scalable method to generate synthetic QA datasets from scientific papers."
+
 - key: microvqa
   title: "MicroVQA: A Multimodal Reasoning Benchmark for Microscopy-Based Scientific Research"
   venue: CVPR 2025
