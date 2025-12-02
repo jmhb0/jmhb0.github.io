@@ -131,6 +131,7 @@ h1.name {
   max-width: 950px;
   margin: 0 auto;
   padding-top: 30px;
+  zoom: 0.85;
 }
 
 /* Introduction section */
