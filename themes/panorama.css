@@ -291,3 +291,16 @@ td>h2 {
         border-left: 1px solid #e5e7eb !important;
     }
 }
+
+/* Mobile: make publication images larger when stacked */
+@media (max-width: 768px) {
+    .publication-image {
+        flex: none !important;
+        width: 100% !important;
+    }
+
+    .publication-image img {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+}

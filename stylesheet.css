@@ -312,24 +312,20 @@ span.highlight {
   .publication-image {
     flex: none;
     align-self: center;
-  }
-
-  .publication-image {
-    flex: 0 0 200px;
+    width: 100%;
   }
 
   .publication-image img {
-    max-width: 200px;
+    max-width: 70%;
+    width: auto;
+    max-height: 270px;
+    object-fit: contain;
   }
 }
 
 @media (max-width: 480px) {
   .intro-photo img {
     max-width: 200px;
-  }
-
-  .publication-image img {
-    max-width: 100px;
   }
 
   section h2 {
