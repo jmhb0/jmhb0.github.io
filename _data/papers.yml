@@ -10,7 +10,7 @@
 
 - key: papersearchqa
   title: "PaperSearchQA: Learning to Search and Reason over Scientific Papers with RLVR"
-  venue: Preprint
+  venue: EACL 2026
   authors_html: "<strong>James Burgess</strong>, Jan N. Hansen, Duo Peng, Yuhui Zhang, Alejandro Lozano, Min Woo Sun, Emma Lundberg, Serena Yeung-Levy"
   image: images/papersearchqa-methods.jpg
   links:
