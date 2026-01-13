@@ -3,13 +3,15 @@ intro_paragraphs:
   - "I am a Stanford PhD student working on computer vision and machine learning. I'm fortunate to be advised by <a href=\"https://ai.stanford.edu/~syyeung/\">Serena Yeung-Levy</a> and to be supported by the <a href=\"https://www.quadfellowship.org/\">Quad Fellowship</a>."
   - "I work on vision-language models: evaluation, agentic systems, and training environments. I often apply these methods to biology and medicine, and to questions about how AI can advance science."
 social_links:
-  - text: Scholar
+  - text: scholar
     href: https://scholar.google.com/citations?user=R6GmdPIAAAAJ
-  - text: Twitter
+  - text: twitter
     href: https://twitter.com/jmhb0
-  - text: Github
+  - text: github
     href: https://github.com/jmhb0/
-  - text: LinkedIn
+  - text: linkedin
     href: https://www.linkedin.com/in/jmhb/
+  - text: goodreads
+    href: https://www.goodreads.com/user/show/67215051-james-burgess
 headshot_image_circle: images/james_burgess_headshot.png
 headshot_image_full: images/james_burgess_headshot.png 
