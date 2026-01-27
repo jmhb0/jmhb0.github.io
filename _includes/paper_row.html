@@ -3,6 +3,11 @@
         <img src='{{ include.image | relative_url }}' alt="{{ include.title }}">
     </div>
     <div class="publication-content">
+        {% if include.title_link %}
+        <a href="{{ include.title_link }}">
+            <span class="papertitle">{{ include.title }}</span>
+        </a>
+        {% else %}
         {% assign first_link = include.links | first %}
         {% if first_link %}
         <a href="{{ first_link.href }}">
@@ -10,6 +15,7 @@
         </a>
         {% else %}
         <span class="papertitle">{{ include.title }}</span>
+        {% endif %}
         {% endif %}
         {% if include.authors_html %}
         <div class="authors">{{ include.authors_html }}</div>

@@ -10,12 +10,19 @@
 
 - key: papersearchqa
   title: "PaperSearchQA: Learning to Search and Reason over Scientific Papers with RLVR"
+  title_link: https://jmhb0.github.io/PaperSearchQA/
   venue: EACL 2026
   authors_html: "<strong>James Burgess</strong>, Jan N. Hansen, Duo Peng, Yuhui Zhang, Alejandro Lozano, Min Woo Sun, Emma Lundberg, Serena Yeung-Levy"
   image: images/papersearchqa-methods.jpg
   links:
-    - text: preprint
-      href: assets/papersearchqa.pdf
+    - text: project page
+      href: https://jmhb0.github.io/PaperSearchQA/
+    - text: arxiv
+      href: https://arxiv.org/abs/2601.18207
+    - text: dataset
+      href: https://huggingface.co/collections/jmhb/papersearchqa
+    - text: code
+      href: https://github.com/jmhb0/PaperSearchQA
   description: "LLM agents that search and reason over documents can be trained with reinforcement learning with verifiable rewards (RLVR), but require training environments. We propose a scalable method to generate synthetic QA datasets from scientific papers."
 
 - key: microvqa
