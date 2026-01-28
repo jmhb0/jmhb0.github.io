@@ -1,3 +1,18 @@
+- key: medevidence
+  title: "Can Large Language Models Match the Conclusions of Systematic Reviews?"
+  venue: "ICLR 2026"
+  authors_html: "Christopher Polzak*, Alejandro Lozano*, Min Woo Sun*, <strong>James Burgess</strong>, Yuhui Zhang, Kevin Wu, Serena Yeung-Levy"
+  image: None
+  links:
+    - text: paper
+      href: https://arxiv.org/abs/2505.22787
+    - text: benchmark
+      href: https://huggingface.co/datasets/clcp/med-evidence
+    - text: code
+      href: https://github.com/zy-f/med-evidence
+  # note: "*co-first authorship"
+  # description: "A benchmark testing LLMs ability for in-context reasoning about medical findings from research papers."
+
 - key: squeezeddiffusion
   title: "Squeezed Diffusion Models"
   venue: "NeurIPSw 2025"
@@ -23,21 +38,6 @@
       href: https://github.com/cliangyu/med_eval
   # note: "*co-first authorship"
   # description: """
-
-- key: medevidence
-  title: "Can Large Language Models Match the Conclusions of Systematic Reviews?"
-  venue: "ICLR 2026"
-  authors_html: "Christopher Polzak*, Alejandro Lozano*, Min Woo Sun*, <strong>James Burgess</strong>, Yuhui Zhang, Kevin Wu, Serena Yeung-Levy"
-  image: None
-  links:
-    - text: paper
-      href: https://arxiv.org/abs/2505.22787
-    - text: benchmark
-      href: https://huggingface.co/datasets/clcp/med-evidence
-    - text: code
-      href: https://github.com/zy-f/med-evidence
-  # note: "*co-first authorship"
-  # description: "A benchmark testing LLMs ability for in-context reasoning about medical findings from research papers."
 
 - key: cellflux
   title: "CellFlux: Simulating Cellular Morphology Changes via Flow Matching"
@@ -69,7 +69,7 @@
     - text: code
       href: https://github.com/yuhui-zh15/AutoConverter
   # note: "*co-first authorship"
-  # description: "A method for converting open-ended visual question answering (VQA) queries into multiple-choice format, enabling more objective and scalable evaluation." 
+  # description: "A method for converting open-ended visual question answering (VQA) queries into multiple-choice format, enabling more objective and scalable evaluation."
 
 - key: microbench
   title: "Micro-Bench: A Vision-Language Benchmark for Microscopy Understanding"
@@ -86,4 +86,4 @@
     - text: code
       href: https://github.com/yeung-lab/u-Bench
   # note: "*co-first authorship"
-  # description: "A Vision-Language Benchmark for Microscopy Understanding." 
+  # description: "A Vision-Language Benchmark for Microscopy Understanding."
