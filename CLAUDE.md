@@ -62,4 +62,16 @@ The site uses a two-tier styling system:
 1. **Base styles**: `stylesheet.css` - core typography, layout, and responsive design
 2. **Theme overrides**: `themes/panorama.css` - theme-specific styling with `!important` declarations
 
-**When making style changes**: Always check if the active theme (set in `_config.yml`) has overriding styles. Theme CSS loads after base CSS and uses `!important`, so modifications may need to be made in the theme file rather than the base stylesheet.
+**CRITICAL: The Panorama theme controls almost everything!**
+- The Panorama theme (`themes/panorama.css`) uses `!important` declarations that override ALL base styles
+- Font sizes, colors, spacing, and layout are primarily controlled by the theme, not the base stylesheet
+- Many theme selectors use legacy table-based CSS (`table:has(.name)`, `tr[bgcolor]`) that may not match the modern HTML structure
+- **When making style changes**: Always modify `themes/panorama.css` first, not `stylesheet.css`
+- The theme CSS loads after base CSS and completely overrides it with `!important`
+
+**Key Panorama theme overrides:**
+- `.name`: 36px font size
+- `h2`: 24px font size  
+- `table:has(.name) p:not(.name)`: 18px font size (may not match actual HTML)
+- `.intro-social a`: 16px font size
+- `.papertitle`: 20px font size
