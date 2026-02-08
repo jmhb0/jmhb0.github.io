@@ -1,3 +1,14 @@
+- key: vptt
+  title: "Visual Personalization Turing Test"
+  venue: "Preprint"
+  authors_html: "Rameen Abdal, <strong>James Burgess</strong>, Sergey Tulyakov, Kuan-Chieh Jackson Wang"
+  image: None
+  links:
+    - text: project page
+      href: https://snap-research.github.io/vptt/
+    - text: paper
+      href: https://arxiv.org/abs/2601.22680
+
 - key: medevidence
   title: "Can Large Language Models Match the Conclusions of Systematic Reviews?"
   venue: "ICLR 2026"
