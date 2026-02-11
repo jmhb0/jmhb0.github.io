@@ -1,6 +1,6 @@
 - key: artifactlens
   title: "ArtifactLens: Hundreds of Labels Are Enough for Artifact Detection with VLMs"
-  venue: Preprint (to be released)
+  venue: Preprint
   authors_html: "<strong>James Burgess</strong>, Rameen Abdal, Dan Stoddart, Sergey Tulyakov, Serena Yeung-Levy, Kuan-Chieh Jackson Wang"
   image: images/artifactlens-figure.jpg
   links:
