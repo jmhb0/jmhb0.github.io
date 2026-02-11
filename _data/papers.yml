@@ -4,8 +4,10 @@
   authors_html: "<strong>James Burgess</strong>, Rameen Abdal, Dan Stoddart, Sergey Tulyakov, Serena Yeung-Levy, Kuan-Chieh Jackson Wang"
   image: images/artifactlens-figure.jpg
   links:
-    - text: coming soon
-      href: /
+    - text: project page
+      href: https://jmhb0.github.io/ArtifactLens/
+    - text: arxiv
+      href: https://arxiv.org/abs/2602.09475
   description: "Detecting artifacts in AI-generated images can improve generators. Older works fine-tunes VLMs, but we find that scaffolding with small datasets can be enough. Key tools: in-context learning, prompt optimization, and multi-component design—we improve each."
 
 - key: papersearchqa
