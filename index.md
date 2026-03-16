@@ -43,11 +43,11 @@ theme: panorama
   <section class="teaching">
     <h2>Teaching & Service</h2>
     <div class="teaching-list">
-      {% for course in site.data.teaching.courses %}
-        <div class="course">{{ course.description }}</div>
-      {% endfor %}
       {% for item in site.data.teaching.service %}
         <div class="course">{{ item.description }}</div>
+      {% endfor %}
+      {% for course in site.data.teaching.courses %}
+        <div class="course">{{ course.description }}</div>
       {% endfor %}
     </div>
   </section>

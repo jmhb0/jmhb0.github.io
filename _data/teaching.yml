@@ -4,4 +4,4 @@ courses:
 
 service:
   - description: "Editor, <a href=\"https://sail.stanford.edu/blog\">Stanford AI Lab (SAIL) Blog</a>."
-  - description: "Reviewer for CVPR, NeurIPS, ICML."
+  - description: "Reviewer for CVPR, ECCV, NeurIPS, ICML."
