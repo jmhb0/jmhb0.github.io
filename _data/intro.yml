@@ -1,6 +1,6 @@
 name: James Burgess
 intro_paragraphs:
-  - "I am a Stanford PhD student working on machine learning and computer vision. I'm fortunate to be advised by <a href=\"https://ai.stanford.edu/~syyeung/\">Serena Yeung-Levy</a> and to be supported by the <a href=\"https://www.quadfellowship.org/\">Quad Fellowship</a>."
+  - "I am a Stanford PhD student working on machine learning. I'm fortunate to be advised by <a href=\"https://ai.stanford.edu/~syyeung/\">Serena Yeung-Levy</a> and to be supported by the <a href=\"https://www.quadfellowship.org/\">Quad Fellowship</a>."
   - "I build and evaluate LLMs and VLMs: benchmarks, RL training, agentic systems, and synthetic data. My work covers both general ML methodology and applications to biology and medicine. I graduate in June 2026."
 social_links:
   - text: scholar
