@@ -8,7 +8,7 @@
       href: https://jmhb0.github.io/ArtifactLens/
     - text: arxiv
       href: https://arxiv.org/abs/2602.09475
-  description: "Detecting artifacts in AI-generated images can improve generators. Older works fine-tunes VLMs, but we find that scaffolding with small datasets can be enough. Key tools: in-context learning, prompt optimization, and multi-component design—we improve each."
+  description: "Detecting artifacts in AI-generated images can improve generators. Older works fine-tune VLMs, but we find that scaffolding with small datasets (hundreds) can be enough. Key tools: in-context learning, prompt optimization, and multi-component design."
 
 - key: papersearchqa
   title: "PaperSearchQA: Learning to Search and Reason over Scientific Papers with RLVR"
@@ -25,7 +25,7 @@
       href: https://huggingface.co/collections/jmhb/papersearchqa
     - text: code
       href: https://github.com/jmhb0/PaperSearchQA
-  description: "LLM agents that search and reason over documents can be trained with reinforcement learning with verifiable rewards (RLVR), but require training environments. We propose a scalable method to generate synthetic QA datasets from scientific papers."
+  description: "LLM agents that search and reason over documents can be trained with RLVR, but this requires training environments. We propose a scalable method to generate synthetic QA data from scientific papers."
 
 - key: microvqa
   title: "MicroVQA: A Multimodal Reasoning Benchmark for Microscopy-Based Scientific Research"
@@ -42,7 +42,7 @@
     - text: code
       href: https://github.com/jmhb0/microvqa
   note: "*co-first authorship"
-  description: "MicroVQA is an expert-curated benchmark for research-level reasoning in biological microscopy. We also propose a method called RefineBot for removing language shortcuts from multiple-choice VQA."
+  description: "Benchmark and eval methodology. MicroVQA is a benchmark for PhD-level visual reasoning in biological microscopy, used internally at frontier labs. RefineBot is a method for removing language shortcuts from VQA."
 
 - key: biomedica
   title: "BIOMEDICA: An Open Biomedical Image-Caption Archive, Dataset, and Vision-Language Models Derived from Scientific Literature"
@@ -76,7 +76,7 @@
       href: https://huggingface.co/datasets/jmhb/VidDiffBench
     - text: code
       href: https://github.com/jmhb0/viddiff
-  description: "We propose Video Action Differencing (VidDiff), a new task for detecting subtle variations in how actions are performed between two videos. We release a benchmark spaning diverse skilled actions, and a baseline method that is a simple agentic workflow."
+  description: "We introduce Video Action Differencing (VidDiff), a task for comparing actions between videos via natural language. We release a benchmark covering diverse skilled actions, and a baseline method implemented as a simple agentic workflow."
 
 - key: viewneti
   title: "Viewpoint Textual Inversion: Discovering Scene Representations and 3D View Control in 2D Diffusion Models"
@@ -91,7 +91,7 @@
     - text: code
       href: https://github.com/jmhb0/view_neti
   note: 'Outstanding Paper Award at the ECCV Workshop "Emergent Visual Abilities and Limits of Foundation Models"'
-  description: "We show that 2D diffusion models like StableDiffusion have 3D control in their text input space which we call '3D view tokens'."
+  description: "We show that 2D diffusion models like StableDiffusion have 3D control in their text input space which we call '3D view tokens'. We use them for view-controlled image generation and novel view synthesis from a single image."
 
 - key: o2vae
   title: "Orientation-invariant autoencoders learn robust representations for shape profiling of cells and organelles"
@@ -103,7 +103,7 @@
       href: https://www.nature.com/articles/s41467-024-45362-4
     - text: code
       href: https://github.com/jmhb0/o2vae
-  description: "Unsupervised shape representations of cells and organelles are erroneously sensitive to image orientation, which we mitigate with equivariant convolutional network encoders in our method, O2VAE."
+  description: "Unsupervised shape representations of cells and organelles are erroneously sensitive to image orientation. O2VAE fixes this with an architectural change that guarantees orientation invariance."
 
 - key: organelle-profiling
   title: "Global organelle profiling reveals subcellular localization and remodeling at proteome scale"
@@ -115,4 +115,4 @@
       href: https://www.cell.com/cell/fulltext/S0092-8674(24)01344-8
     - text: code
       href: https://github.com/jmhb0/cytoself
-  description: "A proteomics map of human subcellular architecture, led by the Chan-Zuckerberg Biohub." 
+  description: "A proteomics map of human subcellular architecture, led by the Chan-Zuckerberg Biohub. I contributed embedding models for microscopy image classification." 
