@@ -37,6 +37,24 @@
   # note: "*co-first authorship"
   # description: """
 
+- key: notokenswasted
+  title: "No Tokens Wasted: Leveraging Long Context in Biomedical Vision-Language Models"
+  venue: "ML4H 2025"
+  authors_html: "Min Woo Sun, Alejandro Lozano, Javier Gamazo Tejero, Vishwesh Nath, Xiao Xiao Sun, <strong>James Burgess</strong>, Yuhui Zhang, Kun Yuan, Robert Tibshirani, Sean Huver, Serena Yeung-Levy"
+  image: None
+  links:
+    - text: paper
+      href: https://arxiv.org/abs/2510.03978
+
+- key: cellfluxv2
+  title: "CellFluxV2: An Image Generative Foundation Model for Virtual Cell Modeling"
+  venue: "ML4H 2025"
+  authors_html: "Yuhui Zhang, Yuchang Su, Zoe Wefers, Shiye Su, He Li, Tianhong Li, Chenyu Wang, <strong>James Burgess</strong>, Alejandro Lozano, Linqi Zhou, Daisy Ding, Jeffrey Nirschl, Emma Lundberg, Serena Yeung-Levy"
+  image: None
+  links:
+    - text: paper
+      href: https://www.biorxiv.org/content/10.1101/2026.01.22.634424v1
+
 - key: medresolution
   title: "The Impact of Image Resolution on Biomedical Multimodal Large Language Models"
   venue: "MLHC 2025"
